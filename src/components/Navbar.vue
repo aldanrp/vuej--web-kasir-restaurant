@@ -1,26 +1,19 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="faded">
-      <div class="container">
+      <div class="container navbar-edit">
         <b-navbar-brand href="#" >
-          <strong>Kulineran</strong>
+          <strong>Yok!pergi</strong>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <router-link class="nav-link" to="/">Home</router-link>
-            <router-link class="nav-link" to="/foods">Food</router-link>
+            <router-link class="nav-link ml-2 " to="/">Home</router-link>
+            <router-link class="nav-link ml-2" to="/foods">Wisata</router-link>
           </b-navbar-nav>
           <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-            <router-link class="nav-link" to="/keranjang">
-                keranjang
-                <b-icon-bag></b-icon-bag>
-                <span class="badge badge-success ml-2">{{ updateKeranjang ? updateKeranjang.length : jumlah_pesanans.length }}</span>
-            </router-link>
-          </b-navbar-nav>
         </b-collapse>
       </div>
     </b-navbar>

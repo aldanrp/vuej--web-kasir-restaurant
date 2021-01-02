@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row mt-4">
                 <div class="col">
-                    <h1>Daftar <strong>Makanan</strong></h1>
+                    <h1>Daftar <strong>Wisata</strong></h1>
                 </div>
             </div>
 
@@ -13,7 +13,7 @@
                     v-model="search"
                     type="text"
                     class="form-control"
-                    placeholder="Cari makanan kesukaan anda..."
+                    placeholder="Cari tempat tujuan anda..."
                     aria-label="Cari"
                     aria-describedby="basic-addon1"
                     @keyup="searchFood"
@@ -51,7 +51,7 @@ export default {
     },
     methods: {
         setProduct(data) {
-        this.products = data;
+            this.products =  data;
         },
         searchFood(){
             axios

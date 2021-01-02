@@ -5,6 +5,7 @@ import foods from '../views/foods.vue';
 import FoodDetails from '../views/FoodDetails.vue';
 import Keranjang from '../views/Keranjang.vue';
 import pesananSukses from '../views/pesananSukses.vue';
+import Inform from '../views/Informasi.vue';
 
 Vue.use( VueRouter );
 
@@ -22,6 +23,11 @@ const routes = [ {
         path: '/foods/:id',
         name: 'FoodDetails',
         component: FoodDetails
+    },
+    {
+        path: '/Inform/:id',
+        name: 'Inform',
+        component: Inform
     },
     {
         path: '/keranjang',

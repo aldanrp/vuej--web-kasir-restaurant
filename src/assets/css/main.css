@@ -2,16 +2,31 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-edit {
+    z-index: 999;
+}
+
+.bg-edit {
+    background-image: url('../images/borobudur.jpg');
+    background-size: cover;
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+}
+
+.img {
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
 .router-link-exact-active {
     font-weight: bold;
 }
 
 .btn-success {
-    background-color: #4eb883;
-}
-
-.badge-success {
-    background-color: #4eb883;
+    background-color: #51ad3a;
 }
 
 .card-product {

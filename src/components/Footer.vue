@@ -1,10 +1,16 @@
 <template>
     <footer class="mt-5 mb-5">
-        <hr />
         <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    Copyright by Alfirdan Ripani
+            <hr  class="border mt-2"/>
+            <div class="row ">
+                <div class="col-md-6 bg-transparent border-right">
+                    <h4><strong>Yok!pergi</strong></h4>
+                    <p>merupakan website yang membantu para traveler untuk mencari tempat-tempat yang baru</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="mt-2">
+                        <p>Copyright Alfirdan Ripani & Jefri Ananda Putra & Aldi Kamaludin</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -18,5 +24,7 @@ export default {
 </script>
 
 <style>
-
+    .border-right {
+        border-right: 1rem bold;
+    }
 </style>

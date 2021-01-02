@@ -10,9 +10,9 @@
             class="mb-3 shadow card-product card-img-top"
             >
                 <b-card-text>
-                    Harga : Rp. {{product.harga}}
+                    Place : {{product.tempat}}
                 </b-card-text>
-                <router-link :to="'/foods/'+ product.id" class="btn btn-success p-2"><b-icon-cart></b-icon-cart> Pesan</router-link>
+                <router-link :to="'/Inform/'+ product.id" class="btn btn-success p-2"><b-icon-book></b-icon-book> Know more</router-link>
             </b-card>
     </div>
 </template>
