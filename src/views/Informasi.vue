@@ -76,7 +76,7 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+import Navbar from '@/components/Navbar.vue'
 import axios from "axios";
 
 export default {
@@ -114,6 +114,7 @@ export default {
                 text-align: right;
                 width: 100%;
                 height: 400px;
+                
             }
             .gmap_canvas {
                 overflow: hidden;

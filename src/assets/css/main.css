@@ -6,6 +6,21 @@
     z-index: 999;
 }
 
+.logo {
+    font-size: larger;
+    color: green;
+
+}
+
+.logo:hover{
+    color: rgba(0, 128, 0, 0.5);
+}
+.word{
+    font-size: 20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
 .bg-edit {
     background-image: url('../images/borobudur.jpg');
     background-size: cover;
@@ -50,4 +65,30 @@
 
 .img-fluid {
     border-radius: 15px;
+}
+
+
+.logo-login{
+    font-size: 30px ;
+    font-weight: bold;
+    color: green;
+}
+
+.logo-login:hover{
+    color: rgba(0, 128, 0, 0.548);
+}
+
+.img-login{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form-bg{
+    background-color: rgba(211, 211, 211, 0.24);
+    padding: 30px 30px 60px 30px;
+    border-radius: 10px;
+}
+
+.footer-info{
+    font-size: large;
 }

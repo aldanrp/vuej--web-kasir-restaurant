@@ -1,11 +1,12 @@
 <template>
+<div class="container-fluid">
     <div class="hero">
         <!--desktop-->
         <div class="d-none d-md-block">
             <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="d-flex h-100">
-                        <div class="justify-content-center align-self-center">
+                        <div class="justify-content-center align-self-center ml-5">
                             <h2><strong>Indonesian Travel , </strong><br />in your gadget</h2>
                             <p>Ayo jelajahi dan lakukan perjalananmu sekarang </p>
                             <router-link to="/foods" class="btn btn-lg btn-success">
@@ -34,6 +35,8 @@
             </div>
         </div>
     </div>
+</div>
+    
 </template>
 
 <script>

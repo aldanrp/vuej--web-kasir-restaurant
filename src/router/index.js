@@ -6,6 +6,7 @@ import FoodDetails from '../views/FoodDetails.vue';
 import Keranjang from '../views/Keranjang.vue';
 import pesananSukses from '../views/pesananSukses.vue';
 import Inform from '../views/Informasi.vue';
+import Login from "../views/Login.vue";
 
 Vue.use( VueRouter );
 
@@ -13,6 +14,11 @@ const routes = [ {
         path: '/',
         name: 'Home',
         component: Home
+    },
+    {
+        path:'/Login',
+        name: 'Login',
+        component: Login
     },
     {
         path: '/foods',

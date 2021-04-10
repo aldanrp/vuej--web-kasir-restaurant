@@ -1,9 +1,8 @@
 <template>
   <div class="home">
     <Navbar />
-    <div class="container">
       <Hero />
-
+    <div class="container">
       <div class="row mt-5">
         <div class="col">
           <h2>The Popular<strong> Place</strong></h2>

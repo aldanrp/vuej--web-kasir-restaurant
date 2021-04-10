@@ -136,10 +136,10 @@ export default {
                     .then(() => {
                         this.keranjangs.map(function(item){
                             return axios
-                                        .delete("http://localhost:3000/keranjangs/"+ item.id)
-                                        .catch((error)=>{
-                                            console.log(error)
-                                        })
+                                .delete("http://localhost:3000/keranjangs/"+ item.id)
+                                .catch((error)=>{
+                                    console.log(error)
+                                })
                         })
                         this.$router.push({path : "/pesananSukses"})
                         this.$toast.success('Succes Dipesan', {
